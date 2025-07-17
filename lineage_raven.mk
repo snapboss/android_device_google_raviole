@@ -8,6 +8,9 @@
 TARGET_DISABLE_EPPE := true
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+#LOS EXT
+WITH_GMS := true
+
 # Inherit device configuration
 DEVICE_CODENAME := raven
 DEVICE_PATH := device/google/raviole
